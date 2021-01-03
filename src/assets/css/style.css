@@ -314,6 +314,9 @@ ul {
 .blog-top {
   padding: 4rem 0rem;
 }
+.blog-top .blog-top-left {
+  padding: 0rem 2rem;
+}
 
 .blog-top .blog-top-left {
   padding: 0rem 2rem;
@@ -581,7 +584,6 @@ ul {
   .header .header-img {
     height: auto;
   }
-
   .our-app .our-app-right img {
     width: 100%;
     max-height:600px;
