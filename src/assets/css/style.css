@@ -582,9 +582,11 @@ ul {
   }
   .our-app .our-app-right img {
     width: 100%;
-    margin: 0rem 1rem;
+    max-height:600px;
+    margin: 0rem auto;
     object-fit:contain;
   }
+  
   .how-we-work-item .arrow {
     display: none;
   }
