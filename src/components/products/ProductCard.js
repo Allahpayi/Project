@@ -16,13 +16,13 @@ class ProductCard extends Component {
                         </div>
                     </div>
                     <div className="product-card-footer">
-                        <select class="form-select w-100 mb-1">
+                        <select className="form-select w-100 mb-1">
                             <option selected>Normal(30sm)</option>
                             <option value="1">Gros(40sm)</option>
                             <option value="2">Famillie(50)</option>
                             <option value="3">Party(60)</option>
                         </select>
-                        <select class="form-select w-100 mb-1">
+                        <select className="form-select w-100 mb-1">
                             <option selected>wählen ein extra beilage</option>
                             <option value="1">Käserand</option>
                         </select>

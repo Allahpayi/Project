@@ -15,11 +15,11 @@ class Products extends Component {
 
         return (
             <div className="products">
-                <NavBar />
+                <NavBar phone="+994 50 999 99 99" />
                 <ProductSlider />
                 <ProductMenu />
                 <div className="product">
-                <div className="container">
+                <div className="container-fluid">
                     <Switch>
                         <Route exact path="/products" component={Pizza} />
                         <Route path="/products/pasta" component={Pasta} />

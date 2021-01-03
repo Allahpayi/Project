@@ -315,6 +315,10 @@ ul {
   padding: 4rem 0rem;
 }
 
+.blog-top .blog-top-left {
+  padding: 0rem 2rem;
+}
+
 .blog-top .blog-top-left p {
   width: 70%;
   margin-bottom: 0rem;
@@ -578,6 +582,13 @@ ul {
     height: auto;
   }
 
+  .our-app .our-app-right img {
+    width: 100%;
+    max-height:600px;
+    margin: 0rem auto;
+    object-fit:contain;
+  }
+  
   .how-we-work-item .arrow {
     display: none;
   }

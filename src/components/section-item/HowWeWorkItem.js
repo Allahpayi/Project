@@ -5,12 +5,12 @@ class HowWeWorkItem extends Component {
         return (
             <div className="col-md-4 mb-2">
                 <div className="how-we-work-item">
-                    <i class={"fas " + this.props.icon}></i>
+                    <i className={"fas " + this.props.icon}></i>
                     <div className="step">{this.props.step}</div>
                     <h6 className="item-title">{this.props.title}</h6>
                     <p className="item-info">{this.props.info}</p>
                     {
-                        this.props.arrowIcon ? <i class="far fa-chevron-right arrow"></i> : ""
+                        this.props.arrowIcon ? <i className="far fa-chevron-right arrow"></i> : ""
                     }
                 </div>
             </div>

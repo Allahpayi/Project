@@ -18,6 +18,7 @@ class ProductMenu extends Component {
     }
     render() {
         return (
+            // eslint-disable-next-line no-useless-concat
             <div className={this.state.fixed ? "product-menu " + " fixed-menu " : " product-menu"}>
                 <ul>
                     <li>

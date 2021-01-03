@@ -14,7 +14,7 @@ class OurApp extends Component {
                                 <div>
                                     <h4>immer und überall bestellen!</h4>
                                 </div>
-                                <div class="apps-store">
+                                <div className="apps-store">
                                     <img src="https://ilmihaloku.com/static/media/storebutton.dffd25fb.svg" alt="our app" />
                                     <img src="https://akademikhijyen.com.tr/wp-content/uploads/revslider/slider-1/Download-On-The-App-Store-PNG-Image.png" alt="our app" />
                                 </div>

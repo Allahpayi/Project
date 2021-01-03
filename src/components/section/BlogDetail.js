@@ -4,20 +4,20 @@ class BlogDetail extends Component {
     render() {
         return (
             <div>
-                <section id="blog-detail" class="blog-detail">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12 entries">
-                                <article class="entry entry-single">
-                                    <div class="entry-img">
-                                        <img src="https://smmagencepro.com/wp-content/uploads/2020/02/How-blogs-changed-the-world-1024x585.jpg" alt="" class="img-fluid" />
+                <section id="blog-detail" className="blog-detail">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12 entries">
+                                <article className="entry entry-single">
+                                    <div className="entry-img">
+                                        <img src="https://smmagencepro.com/wp-content/uploads/2020/02/How-blogs-changed-the-world-1024x585.jpg" alt="" className="img-fluid" />
                                     </div>
 
-                                    <h2 class="entry-title">
+                                    <h2 className="entry-title">
                                         Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia
                                     </h2>
 
-                                    <div class="entry-content">
+                                    <div className="entry-content">
                                         <p>
                                             Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta.
                                             Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore.
@@ -46,7 +46,7 @@ class BlogDetail extends Component {
                                             Quia et suscipit non sequi. Maxime sed odit. Beatae nesciunt nesciunt accusamus quia aut ratione aspernatur dolor. Sint harum eveniet dicta exercitationem minima. Exercitationem omnis asperiores natus aperiam dolor consequatur id ex sed. Quibusdam rerum dolores sint consequatur quidem ea.
                                             Beatae minima sunt libero soluta sapiente in rem assumenda. Et qui odit voluptatem. Cum quibusdam voluptatem voluptatem accusamus mollitia aut atque aut.
                         </p>
-                                        <img src="assets/img/blog-detail/blog-detail-inside-post.jpg" class="img-fluid" alt="" />
+                                        <img src="assets/img/blog-detail/blog-detail-inside-post.jpg" className="img-fluid" alt="" />
 
                                         <h3>Ut repellat blanditiis est dolore sunt dolorum quae.</h3>
                                         <p>

@@ -12,7 +12,7 @@ class Head extends Component {
                     <p className="header-text">Jetzt Restaurants in Deiner Umgebung finden</p>
                     <div className="search-bar">
                         <div className="input-group">
-                            <i class="fal fa-map-marker-check"></i>
+                            <i className="fal fa-map-marker-check"></i>
                             <input type="text" placeholder="Address" />
                         </div>
                         <div className="button-group">
@@ -23,7 +23,7 @@ class Head extends Component {
                 </div>
                 <div className="header-img">
                 <div className="header-img-top"></div>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg" class="img-fluid" alt="" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg" className="img-fluid" alt="" />
                 </div>
             </div>
         );
