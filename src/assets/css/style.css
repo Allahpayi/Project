@@ -582,7 +582,7 @@ ul {
   }
   .our-app .our-app-right img {
     width: 90%;
-    margin: auto;
+    margin: 0rem auto;
   }
   .how-we-work-item .arrow {
     display: none;
