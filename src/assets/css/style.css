@@ -84,11 +84,25 @@ ul {
 }
 
 .header-top .navbar-brand,
-.header-top .bars {
+.header-top .number {
   font-size: 1.2rem;
   color: var(--white-c);
 }
-
+.header-top-right{
+  display: flex;
+  align-items: center;
+}
+.profile{
+  margin-left: 1rem;
+}
+.profile .profile-image{
+  width: 2.4rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
 .header .header-content {
   display: flex;
   flex-direction: column;
@@ -508,7 +522,6 @@ ul {
 }
 
 .product-card {
-  margin-bottom: 10rem;
   border-radius: .4rem;
   -webkit-border-radius: .4rem;
   -moz-border-radius: .4rem;
@@ -523,8 +536,11 @@ ul {
 
 
 }
-
 .product-card-body {
+  display: flex;
+  flex-direction: column;
+}
+.product-card-top {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -566,6 +582,10 @@ ul {
   background-color: var(--blue-c);
   color: var(--white-c);
 }
+
+
+
+
 
 @media (max-width: 768px) {
   html {
